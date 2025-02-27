@@ -1,0 +1,17 @@
+.divHeader {
+    color: hsl(78, 86%, 45%);
+    background-color: hsl(240, 80%, 68%);
+    width: 30%;
+    height: 200px;    
+    position: absolute;
+   
+    top: 30px;
+    right: 750px
+}
+
+h1 {
+    position: absolute;
+   
+    top: 50px;
+    right: 10px
+}
