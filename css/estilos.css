@@ -104,3 +104,25 @@ a:hover{
    margin-left:30%;
       
 }
+
+/* classes de outra aba do site*/
+div.catalogo{
+   position: relative;
+    padding-bottom: px;
+   background-color: hsl(239, 31%, 34%);
+   margin: 88px 88px;
+   border-width: 1px;
+   border-style: solid;
+   width: 600px;
+   height: 450px;}
+
+
+   .nomeCatalogo{
+         
+      position: absolute;
+      top: -30px;
+      right: 1590px;
+      color: hsl(234, 90%, 18%);
+      font-size: 40px ;
+           
+}
