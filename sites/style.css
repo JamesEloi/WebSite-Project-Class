@@ -1,0 +1,27 @@
+.divHeader {
+    color: hsl(78, 86%, 45%);
+    background-color: hsl(240, 80%, 68%);
+    width: 30%;
+    height: 200px;    
+    position: absolute;
+   
+    top: 30px;
+    right: 750px
+}
+
+h1 {
+    position: absolute;
+   
+    top: 50px;
+    right: 10px
+}
+a{
+      position:absolute;
+      font-size: 18px;
+      margin-top: 250px;
+      margin-left: 30%;
+}
+a:hover{
+    background: hsl(210, 80%, 82%);
+    color: hsl(5, 80%, 50%);
+    font-size: 19px;}

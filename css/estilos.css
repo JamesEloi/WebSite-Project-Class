@@ -1,0 +1,128 @@
+/* Estilização do BODY*/
+body{
+   margin: 0;
+   border: 0;
+   font-family: 'tahoma', 'Arial';
+   background-color: hsl(24, 92%, 52%);
+}
+.logo{
+   width: 5%;
+   margin: 0px 0 -6px;
+
+}
+
+   
+
+
+header{
+   background-color: rgb(206 215 198);
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 4px;
+}
+/*Estilização do Titulo*/
+.divTitle{
+   position: relative;
+   margin: auto;  
+   padding-bottom: 50px;
+}
+/*Estilização do MENU do site*/
+nav{
+    position: absolute;
+   
+    top: 5px;
+    right: 50px
+}
+nav li{
+   display: inline;
+   color: hsl(217, 100%, 40%);
+   font-size: 30px;
+   margin-right: 15px;
+}
+
+a:link{
+   display: inline;
+   color: hsl(218, 100%, 40%);
+   font-size: 24px;
+   margin-right: 15px;
+}
+a:hover{
+   background: hsl(210, 80%, 82%);
+   color: hsl(5, 80%, 50%);
+   font-size: 26px;
+}
+
+.banner {
+   width:  100%;
+   height:700px;
+   /* object-fit: cover; */
+}
+
+.subtitulo {
+      color: hsl(218, 100%, 65%);
+      text-align: center; font-size: 28px;
+      width: 100%;
+}
+
+/*Estilização da sessão Sobre_nos*/
+.sobre_nos {
+     margin: 0;
+     text-align: justify;
+     width: 50%;
+     margin-left: 25%;
+}
+.img_sobrenos {
+   width: 60%;
+   float: left;
+   margin-right: 100px;
+}
+.titulo_sobrenos {
+   clear: left;
+   text-align: center;
+   font-size: 32px;
+
+}
+.texto_diferente{
+   color: navy;
+   font-weight: 100;
+   text-decoration: underline;
+}
+/*Estilização da seção Nosso Estabelecimento*/
+.mapa_geral{
+   padding-left: 10%;
+   background: linear-gradient(hsl(24, 92%, 52%),rgba(255, 255, 255, 0.199));
+}
+.mapa_geral p {
+
+   text-align: center;
+}
+.mapa{
+
+   margin-left:30%;
+      
+}
+
+/* classes de outra aba do site*/
+div.catalogo{
+   position: relative;
+    padding-bottom: px;
+   background-color: hsl(239, 31%, 34%);
+   margin: 88px 88px;
+   border-width: 1px;
+   border-style: solid;
+   width: 600px;
+   height: 450px;}
+
+
+   .nomeCatalogo{
+         
+      position: absolute;
+      top: -30px;
+      right: 1590px;
+      color: hsl(234, 90%, 18%);
+      font-size: 40px ;
+           
+}
